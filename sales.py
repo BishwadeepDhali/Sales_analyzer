@@ -12,14 +12,7 @@ while True:
 sales = []
 days = []
 c = 1
-if n == 0:
-    print('No sales data recorded!')
-    exit()
-elif n<0:
-    print('Invalid input!')
-    exit()
-else:
-    while c <= n:
+while c <= n:
          try:
              a = int(input(f'Enter the sales for day {c}: '))
              if a >= 0:
@@ -65,6 +58,7 @@ else:
     plt.show()
 
    
+
 
 
 
