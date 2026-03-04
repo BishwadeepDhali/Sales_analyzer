@@ -21,7 +21,7 @@ pip install matplotlib
 
 Run the script:
 
-python sales_analyzer.py
+python sales.py
 
 📌 Purpose
 
