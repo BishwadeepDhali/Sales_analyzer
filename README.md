@@ -1,6 +1,6 @@
 📊 Sales Data Analyzer
 
-A simple Python project that records daily sales, performs basic analysis, and visualizes the data using line and bar graphs.
+A simple Python project that records daily sales(in units sold), performs basic analysis, and visualizes the data using line and bar graphs.
 
 🚀 Features
 
