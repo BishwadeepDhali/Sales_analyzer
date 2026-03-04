@@ -1,4 +1,14 @@
-n = int(input('Enter the no of days of sales recorded: '))
+while True:
+    try:
+        n = int(input("Enter number of days: "))
+        
+        if n <= 0:
+            print("Number of days must be positive. Try again.")
+            continue
+        
+        break  
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
 sales = []
 days = []
 c = 1
@@ -55,5 +65,6 @@ else:
     plt.show()
 
    
+
 
 
